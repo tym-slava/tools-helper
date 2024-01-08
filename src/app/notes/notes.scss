@@ -1,0 +1,32 @@
+@import '../../views/variables.scss';
+
+.notes-page__component {
+  height: 100%;
+  padding: 20px;
+  background: $light-blue;
+
+  h1 {
+    color: #FFF;
+  }
+
+  .add-note-button {
+    width: 150px;
+    height: 46px;
+    border-radius: 5px;
+    background: $green;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+      background: green;
+    }
+
+    i.icon {
+      height: auto;
+    }
+
+  }
+}

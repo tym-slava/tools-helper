@@ -1,0 +1,30 @@
+@import '../../../views/variables.scss';
+
+.add-task__component {
+  @include display-flex;
+  
+  input {
+    width: 500px;
+  }
+
+  .add-task-btn {
+    width: 100px;
+    margin-left: 10px;
+    @include border-radius(4px);
+    background: #6435c9;
+    font-size: 18px;
+    color: #FFF;
+    cursor: pointer;
+    @include display-flex;
+    @include jc-center;
+    @include align-items-center;
+
+    i.icon {
+      height: auto;
+    }
+
+    &:hover {
+      background: #4c13c8;
+    }
+  }
+}
